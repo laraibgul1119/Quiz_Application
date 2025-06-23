@@ -1,4 +1,4 @@
-#include "../OOP/String.h"
+#include "String.h"
 #ifndef QUESTION_H
 #define QUESTION_H
 class Question
