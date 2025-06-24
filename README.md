@@ -47,19 +47,14 @@ This project requires a C++ compiler that supports C++11 or later (e.g., GCC, Cl
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Quiz-Application.git
+    git clone https://github.com/laraibgul1119/Quiz_Application
     cd Quiz-Application
-    ```
-    *(Replace `YOUR_USERNAME` with your GitHub username and adjust the repository name if different.)*
+    ``
 
 2.  **Compile the source code**:
     Navigate to the root directory of the cloned repository in your terminal and compile the C++ files. Assuming you are using GCC, you can compile all `.cpp` files into an executable named `quiz_app`:
     ```bash
     g++ *.cpp -o quiz_app
-    ```
-    If you have a separate `String.cpp` file (as suggested by `../OOP/String.h`), ensure it is also included in the compilation. For example, if `String.cpp` is in an `OOP` directory parallel to your main project directory, you might compile like this:
-    ```bash
-    g++ *.cpp OOP/String.cpp -o quiz_app
     ```
 
 ## How to Run and What Happens 🏃‍♀️💨
